@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Hapus Take Ownership Context Menu
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\runas]
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\TakeOwnership]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\runas]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\TakeOwnership]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\runas]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\TakeOwnership]
